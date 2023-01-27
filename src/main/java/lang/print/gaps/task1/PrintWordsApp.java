@@ -9,7 +9,7 @@ public class PrintWordsApp {
         for(int i = 0; i < words.length; i++){
             System.out.print(words[i]);
 
-            if(i != words.length - 1) System.out.print(newLineCharacter);
+            System.out.print(newLineCharacter);
         }
     }
 }
